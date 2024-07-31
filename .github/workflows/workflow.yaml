@@ -1,14 +1,3 @@
-. Faz o buid do codigo (compila ou faz a checagem da sintaxe)
-b. Executa os casos de testes definidos (apenas se o passo anterior for
-sucesso)
-c. Cria uma tag com o nome build_<num>, onde num pode ser qualquer
-numero que identifica unicamente a execuça o
-d. Cria um pacote zip ou gz com o codigo (apenas se o passo anterior for
-sucesso)
-e. Adiciona o pacote gerado como um artefato do Workflow no GitHub
-(apenas se o passo anterior for sucesso
-
-
 name: develop
 
 on:
